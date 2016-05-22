@@ -1,0 +1,303 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+$bar-stable-text: #C30000;
+$tabs-stable-text: #C30000;
+$tabs-stable-bg: #C30000;
+$bar-title-font-size: 20px;
+$tabs-text-font-size-side-icon: 11px;
+$button-stable-text: #C30000;
+$light: rgba(214, 214, 214, 0.1);
+$item-default-active-bg: rgba(67,206,162, 0.5);
+$button-height: 30px;
+$popup-button-min-height: 30px;
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.tab-item{
+    color: #C30000;
+}
+.title{
+    color: #C30000;
+}
+.scroll-content {
+    background: #D150FF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #43cea2, #185a9d, #D150FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #43cea2, #185a9d, #D150FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #43cea2, #185a9d, #D150FF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #43cea2, #185a9d, #D150FF); /* Standard syntax */
+}
+.card a, .card div{
+    text-decoration: none;
+    color: #C30000;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item{
+    background: #D6D6D6;
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6);
+}
+.card{
+    width: 70%; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
+    border-radius: 10px !important;
+}
+.custom-bar-bg{
+    background: rgba(214, 214, 214, 0.6);
+    font-size: 20px;
+}
+.tabs-custom-bg{
+    font-size: 11px;
+}
+.custom-icon{
+    font-size: 20px;
+    color: #C30000;
+    padding-right: 20px;
+}
+.custom-item{
+    color: #C30000;
+    font-size: 15px;
+    border: none;
+}
+.list label{
+    width: 95%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 55px;
+    border-radius: 10px;
+}
+.list span, .list input, .list select{
+    color: #C30000;
+}
+.item span{
+    color: #C30000;
+    font-size: 16px;
+}
+.item textarea{
+    background: #D6D6D6; 
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6); 
+    color: #C30000;
+}
+.item label{
+    padding: 1px;
+}
+.custom-card{
+    width: 90% !important;
+}
+.custom-rating{
+    text-align: center;
+}
+.custom-rating a{
+    font-size: 20px;
+}
+.slider{
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.scroll{
+    height: 100%
+}
+.color-purple{
+    background-color: mediumpurple;
+    width: 100%;
+    height: 100%;
+}
+.color-orange{
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+}
+.custom-input{
+    height: 55px;
+}
+.custom-input .item-input{
+    height: 20px;
+}
+.item-input input{
+    font-size: 16px;
+    color: #C30000;
+}
+.item-input textarea{
+    resize: none;
+}
+.button-bar{
+    height: 60px;
+}
+.button-bar input{
+    margin-top: -4px;
+    font-size: 16px;
+    color: #C30000;
+    background: #D6D6D6; 
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6);
+    text-align: center;
+    margin-right: 5px;
+    width: 50px;
+}
+.button-bar a{
+    font-size: 16px;
+    position: relative;
+    margin-top: -4px;
+    background: #D6D6D6; 
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6); 
+    border: 1px solid #B0B0B0;
+}
+a.button-positive{
+    background: #185a9d; 
+    background: -webkit-linear-gradient(#43cea2, #185a9d);
+    background: -o-linear-gradient(#43cea2, #185a9d); 
+    background: -moz-linear-gradient(#43cea2, #185a9d); 
+    background: linear-gradient(#43cea2, #185a9d);
+    color: #E6E6E6;
+    border: none;
+}
+.button-bar > .option:last-child {
+  border-radius: 0px 20px 20px 0px !important;
+}
+.button-bar > .option:first-child {
+    border-radius: 20px 0px 0px 20px !important;
+}
+.button-bar input[type=number]::-webkit-inner-spin-button, 
+.button-bar input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.custom-weight .unit{
+    border-radius: 20px !important;
+    margin-right: 5px;
+}
+.popup{
+    background: #D6D6D6; 
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6); 
+    color: #C30000;
+    border-radius: 15px !important;
+}
+.popup-head{
+    background: #D150FF; 
+    background: -webkit-linear-gradient(left top, #43cea2, #185a9d, #D150FF);
+    background: -o-linear-gradient(bottom right, #43cea2, #185a9d, #D150FF); 
+    background: -moz-linear-gradient(bottom right, #43cea2, #185a9d, #D150FF); 
+    background: linear-gradient(to bottom right, #43cea2, #185a9d, #D150FF);
+    border-radius: 15px 15px 0 0 !important;
+}
+.popup-title{
+    color: #E6E6E6;
+    font-weight: bold;
+}
+.popup-body{
+    text-align: center;
+}
+.popup-buttons .button{
+    background: #D6D6D6; 
+    background: linear-gradient(#D6D6D6, #E6E6E6);
+    background: -webkit-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -o-linear-gradient(#D6D6D6, #E6E6E6);
+    background: -moz-linear-gradient(#D6D6D6, #E6E6E6); 
+    color: #C30000;
+    border: 1px solid #B0B0B0;
+}
+.popup-buttons .button:hover{
+    color: #185a9d;
+}
+.popup-buttons .button-positive{
+    background: #C30000; 
+    background: linear-gradient(#C30000, #FA0000);
+    background: -webkit-linear-gradient(#C30000, #FA0000);
+    background: -o-linear-gradient(#C30000, #FA0000);
+    background: -moz-linear-gradient(#C30000, #FA0000);
+    color: #D6D6D6;
+}
+.button-bar .reminder-option{
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: -1px;
+    height: 35px;
+    border-radius: 20px;
+    color: #E6E6E6;
+    background: #185a9d; 
+    background: linear-gradient(#43cea2, #185a9d);
+    background: -webkit-linear-gradient(#43cea2, #185a9d);
+    background: -o-linear-gradient(#43cea2, #185a9d);
+    background: -moz-linear-gradient(#43cea2, #185a9d);
+}
+.button-bar > .reminder-option:first-child, 
+.button-bar > .reminder-option:last-child {
+    border-radius: 20px;
+}
+.button-bar .reminder-option:hover,
+.button-bar .reminder-option.button-positive:hover {
+    background: #C30000; 
+    background: linear-gradient(#C30000, #FA0000);
+    background: -webkit-linear-gradient(#C30000, #FA0000);
+    background: -o-linear-gradient(#C30000, #FA0000);
+    background: -moz-linear-gradient(#C30000, #FA0000);
+    color: #D6D6D6;
+}
+.button-bar .reminder-option.button-positive{
+    color: #E6E6E6;
+    background: #185a9d; 
+    background: linear-gradient(#43cea2, #185a9d);
+    background: -webkit-linear-gradient(#43cea2, #185a9d);
+    background: -o-linear-gradient(#43cea2, #185a9d);
+    background: -moz-linear-gradient(#43cea2, #185a9d);
+    border: 1px solid #B0B0B0;
+}
+
+/* Following css classes deal with multi-level menu
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}*/
